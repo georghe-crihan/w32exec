@@ -1,0 +1,77 @@
+DEBUG: loading hello.exe based at 0x400000 from address 0x301D98
+DEBUG: Section 0 Name           = .text
+DEBUG: Section 0 VirtualAddress = 1000
+DEBUG: Section 0 SizeOfRawData  = 4400
+DEBUG: Section 0 VirtualSize    = 4230
+DEBUG: Section 0 file pointer   = 400
+DEBUG: LoadCoffFile: reading in section 0
+DEBUG: Section 1 Name           = .rdata
+DEBUG: Section 1 VirtualAddress = 6000
+DEBUG: Section 1 SizeOfRawData  = 400
+DEBUG: Section 1 VirtualSize    = 3B7
+DEBUG: Section 1 file pointer   = 4800
+DEBUG: LoadCoffFile: reading in section 1
+DEBUG: Section 2 Name           = .data
+DEBUG: Section 2 VirtualAddress = 7000
+DEBUG: Section 2 SizeOfRawData  = 1600
+DEBUG: Section 2 VirtualSize    = 2838
+DEBUG: Section 2 file pointer   = 4C00
+DEBUG: LoadCoffFile: reading in section 2
+DEBUG: The rest of this section is loaded as bss
+DEBUG: zeroing out bss
+DEBUG: Section 3 Name           = .idata
+DEBUG: Section 3 VirtualAddress = A000
+DEBUG: Section 3 SizeOfRawData  = 600
+DEBUG: Section 3 VirtualSize    = 428
+DEBUG: Section 3 file pointer   = 6200
+DEBUG: LoadCoffFile: reading in section 3
+DEBUG: Section 4 Name           = .reloc
+DEBUG: Section 4 VirtualAddress = B000
+DEBUG: Section 4 SizeOfRawData  = 600
+DEBUG: Section 4 VirtualSize    = 54C
+DEBUG: Section 4 file pointer   = 6800
+DEBUG: LoadCoffFile: reading in section 4
+DEBUG: no exports
+DEBUG: relocating ...
+DEBUG: importing ...
+DEBUG: Imports from module KERNEL32.dll:
+DEBUG: import by name: HeapCreate
+DEBUG: import by name: GetVersion
+DEBUG: import by name: ExitProcess
+DEBUG: import by name: TerminateProcess
+DEBUG: import by name: GetCurrentProcess
+DEBUG: import by name: RtlUnwind
+DEBUG: import by name: UnhandledExceptionFilter
+DEBUG: import by name: GetModuleFileNameA
+DEBUG: import by name: FreeEnvironmentStringsA
+DEBUG: import by name: GetEnvironmentStrings
+DEBUG: import by name: FreeEnvironmentStringsW
+DEBUG: import by name: GetEnvironmentStringsW
+DEBUG: import by name: WideCharToMultiByte
+DEBUG: import by name: GetCPInfo
+DEBUG: import by name: GetACP
+DEBUG: import by name: GetOEMCP
+DEBUG: import by name: SetHandleCount
+DEBUG: import by name: GetFileType
+DEBUG: import by name: GetStdHandle
+DEBUG: import by name: GetStartupInfoA
+DEBUG: import by name: HeapDestroy
+DEBUG: import by name: GetCommandLineA
+DEBUG: import by name: VirtualFree
+DEBUG: import by name: WriteFile
+DEBUG: import by name: HeapAlloc
+DEBUG: import by name: HeapFree
+DEBUG: import by name: VirtualAlloc
+DEBUG: import by name: GetProcAddress
+DEBUG: import by name: LoadLibraryA
+DEBUG: import by name: GetLastError
+DEBUG: import by name: FlushFileBuffers
+DEBUG: import by name: SetFilePointer
+DEBUG: import by name: SetStdHandle
+DEBUG: import by name: CloseHandle
+DEBUG: import by name: SetConsoleMode
+DEBUG: import by name: ReadConsoleInputA
+DEBUG: import by name: GetConsoleMode
+DEBUG: import by name: CreateFileA
+DEBUG: import by name: SetEndOfFile
+DEBUG: import by name: ReadFile

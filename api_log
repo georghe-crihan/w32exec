@@ -1,0 +1,82 @@
+API: HeapCreate:
+ flOptions 1,
+ dwInitialSize 4096,
+ dwMaximumSize 0
+API: VirtualAlloc:
+ lpAddress 0,
+ dwSize 400000,
+ flAllocationType 2000,
+ flProtect 4,
+API: VirtualAlloc:
+ lpAddress 810040,
+ dwSize 10000,
+ flAllocationType 1000,
+ flProtect 4,
+API: GetStdHandle: FFFFFFF6
+API: GetFileType: hFile 3
+API: GetStdHandle: FFFFFFF5
+API: GetFileType: hFile 7
+API: GetStdHandle: FFFFFFF4
+API: GetFileType: hFile B
+API: SetHandleCount: Number 32
+API: GetACP
+API: GetCPInfo: CodePage 4E3, lpCPInfo 12FF0C
+API: GetCommandLineA
+API: GetEnvironmentStringsW
+API: GetEnvironmentStrings
+API: HeapAlloc: hHeap 920000, dwFlags 0, dwBytes 2C0
+API: FreeEnvironmentStringsA: API_LOG="Y"
+API: GetModuleFileName:
+ hModule 0,
+ FileNameBuffer 30A390,
+ nSize 104
+API: HeapFree:
+ hHeap 920000,
+ dwFlags 0,
+ lpMem 30F070
+API: HeapAlloc: hHeap 920000, dwFlags 8, dwBytes 800
+API: HeapAlloc: hHeap 920000, dwFlags 0, dwBytes 1000
+API: WriteFile:
+ hFile 7,
+ lpBuffer 12FAC0,
+ nNumberOfBytesToWrite 8,
+ lpNumberOfBytesWritten 12FAB0,
+ lpOverlapped 0
+API: CreateFileA:
+ lpFileName hello.c,
+ dwDesiredAccess 80000000,
+ dwShareMode 3,
+ lpSecurityAttributes 12FEDC,
+ dwCreationDisposition 3,
+ dwFlagsAndAttributes 80,
+ hTemplateFile 0
+API: GetFileType: hFile A
+API: SetFilePointer:
+ hFile: A,
+ MoveTo: 0,
+ dwMoveMethod: 0
+API: CloseHandle : A
+API: CreateFileA:
+ lpFileName CONIN$,
+ dwDesiredAccess C0000000,
+ dwShareMode 3,
+ lpSecurityAttributes 0,
+ dwCreationDisposition 3,
+ dwFlagsAndAttributes 0,
+ hTemplateFile 0
+API: GetConsoleMode: hConsole A
+API: SetConsoleMode: hHandle A, dwMode: 0
+API: ReadConsoleInputA:
+ hConsoleInput A,
+ lpBuffer 12FEF0,
+ nLength 1,
+ lpNumberOfEventsRead 12FEE8
+API: SetConsoleMode: hHandle A, dwMode: 0
+API: WriteFile:
+ hFile 7,
+ lpBuffer 12FABC,
+ nNumberOfBytesToWrite 3,
+ lpNumberOfBytesWritten 12FAAC,
+ lpOverlapped 0
+API: CloseHandle : A
+API: ExitProcess with 0 code 
